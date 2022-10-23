@@ -1,0 +1,387 @@
+* {
+    margin:0;
+    padding:0;
+}
+
+header {
+    width:100vw;
+    height: 10vh;
+    background-color: #4da6ff;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;;
+}
+
+
+/* #menu-icon {
+    align-self: flex-end;
+    position: relative;
+    left: 30%;
+} */
+
+.first-div {
+    width: 100vw;
+    height:88vh;
+    background-color: #4da6ff;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+}
+
+.subdiv1{
+    width:65%;
+    height:70%;
+    display:flex;
+    justify-content: center;
+    flex-direction:column;
+    position:relative;
+    top:150px;
+    left:30px;
+    gap:80px;
+}
+
+.heading1{
+    color: white;
+    font-size: 140px;
+}
+
+.para1 {
+    color:white;
+    font-size: 50px;
+    line-height: 1.6;
+}
+
+#dwld-btn {
+    height: 150px;
+    width: 500px;
+    border: none;
+    background-color: white;
+    color:#66ccff;
+    font-size: 60px;
+}
+
+.second-div {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.subdiv2{
+      width:100%;
+      height: 20%;
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+      align-items: center;
+      position: relative;
+      top:12%;
+
+}
+
+.heading2 {
+    font-family: 'Franklin Gothic Medium', 'ArialNarrow', Arial, Helvetica, sans-serif;
+    font-size: 100px;
+
+}
+
+.para2 {
+    font-size: 50px;
+    color: #94b8b8
+}
+
+
+.subdiv2-1 {
+    width: 100%;
+    height:80%;
+    display:flex;
+    flex-direction: row;
+}
+
+.third-div{
+    display:flex;
+}
+
+.subdiv3-1{
+    width: 100%;
+}
+
+
+
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.subdiv-6{
+    background-color: #4da6ff;
+}
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Create three equal columns that floats next to each other */
+  .column {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+
+.purchase{
+    text-align: center;
+}
+
+.eights-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.subdiv-8 {
+    background-image: url('images/screen-5.jpg');
+    height: 100px;
+    width: 80px;
+}
+
+.inner-subdiv-8{
+display: none;    
+}
+
+.subdiv-8:hover + .inner-subdiv-8{
+    display: block;
+}
+
+/* .subdiv-8-1{
+    width:25%;
+}
+
+
+.subdiv-8-2{
+    width:25%;
+}
+
+.subdiv-8-3{
+    width:25%;
+}
+
+.subdiv-8-4{
+    width:25%;
+} */
+
+
+/* .subdiv-8{
+    display: flex;
+} */
+
+
+.eights-div{
+    display: flex;
+    display: inline;
+    margin-left: 85px;
+    margin-right: 70px;
+}
+
+
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+  }
+
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+  .topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+
+  .topnav-right {
+    float: right;
+  }
+
+  /* .right1{
+ width: 50%;
+ margin-right: 0px;
+}
+
+.left1{
+  width: 50%;
+  margin-left: 0px;
+  
+} */
+
+  .image1 {
+    margin-top: 160px;
+  }
+
+  /* .maintxt { */
+    /* position: relative;
+    margin-top: 150px;
+  } */
+
+  /* .maintxt>img, */
+   .overlay-text {
+    position: absolute;
+   }
+
+  .overlay-text {
+    font-size: larger;
+    font-weight: 200;
+    color: white;
+    padding: 190px 10px;
+  }
+  .card{
+    margin-top: 90px;
+  }
+
+.nineth-div{
+    margin-left:180px;
+    margin-right: 50px;
+}
+
+
+.img-with-text {
+    text-align: justify;
+    width: 27%;
+}
+
+.img-with-text img {
+    display: block;
+    margin: 0 auto;
+}
+
+
+.nineth-div{
+    display: flex;
+}
+
+
+#fname{
+    margin-left: 150px;
+    padding-right: 50px;
+}
+
+#subject{
+    margin:10px;
+}
+
+@media only screen and (max-width: 768px) {
+    .container {
+      width: 100%;
+    }
+  }
+  @media only screen and (max-width: 640px) {
+    body {
+      background-color: lightblue;
+    }
+  }
+
+
